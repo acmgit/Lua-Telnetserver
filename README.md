@@ -23,17 +23,17 @@ Move Server.lua to /usr/bin/.
 Move Lua-Telnetserver.service to /usr/lib/systemd/system/.
 
 
-    systemctl start Lua-Telnetserver
+    systemctl start Lua-Telnetserver.service
 
 To watch the daemon
 
 
-    systemctl status Lua-Telnetserver
+    systemctl status Lua-Telnetserver.service
 
 and to stop the daemon
 
 
-    systemctl stop Lua-Telnetserver
+    systemctl stop Lua-Telnetserver.serivce
 
 
 ## License:
