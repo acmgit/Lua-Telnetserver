@@ -20,18 +20,20 @@ If the connection was successfull, you have now your own little chat.
 ## Install as daemon:
 Change the IP-Adress to your IP-Adress on top of Server.lua. 
 Move Server.lua to /usr/bin/.
-Move Lua-Telnetserver.service to /usr/systemd/system/.
-Open a Console and enter 
-    
-systemctl start Lua-Telnetserver
+Move Lua-Telnetserver.service to /usr/syst
+
+
+    systemctl start Lua-Telnetserver
 
 To watch the daemon
-    
-systemctl status Lua-Telnetserver
+
+
+    systemctl status Lua-Telnetserver
 
 and to stop the daemon
 
-systemctl stop Lua-Telnetserver
+
+    systemctl stop Lua-Telnetserver
 
 
 ## License:
