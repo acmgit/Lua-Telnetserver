@@ -1,3 +1,4 @@
+#!/usr/bin/lua
 --[[
 ************************************************************************************
 **                                                                                **
@@ -41,7 +42,7 @@ end -- function send_2_clients
 print("Server is running ...")                              -- Only for info
 local newclient, err, line, error
 local receive= {}
-local send={}
+local send= {}
 
 -- now the server starts
 while true do

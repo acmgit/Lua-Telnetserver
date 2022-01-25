@@ -1,0 +1,10 @@
+[Unit]
+Description=Simple Telnetserver in Lua
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/Server.lua
+
+[Install]
+WantedBy=multi-user.target
+
